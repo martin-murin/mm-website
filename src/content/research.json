@@ -1,0 +1,98 @@
+{
+    "header": {
+        "pageHeading": "Research portfolio",
+        "subheading": "This page provides a summary of the research I conducted as a Doctoral Researcher at the University of Manchester and at CERN.",
+        "motivation": "The primary motivation of my research is to understand the fundamental building blocks of the universe. I am particularly interested in the study of the top quark, the heaviest known elementary particle, and its interaction with the Higgs boson, the particle responsible for the mass of all other elementary particles. I am also interested in the development and calibration of machine learning techniques to improve the performance of particle detectors and thus to enhance the sensitivity of particle physics experiments.",
+        "introduction1": "The formulation of the Standard Model (SM) was the culmination of the advances made in the field of particle physics in the 20th century. The SM describes the elementary particles and their interactions. It stands as the most extensively tested theory of particle physics to date. Central to many of its predictions is the existence of the top quark and the Higgs boson. The top quark was discovered in 1995 by the CDF and DØ collaborations, while the Higgs boson -- ''the last missing piece'' of the SM -- was discovered in 2012 by the ATLAS and CMS collaborations. Despite its continued success, the SM remains an incomplete description of the entire Universe. One of its shortcomings is its inability to provide the complete explanation of the stark matter-antimatter asymmetry. Additional sources of CP violation beyond those predicted by the SM are needed to explain this asymmetry.",
+        "introduction2": "Investigating highly energetic processes in proton-proton (pp) collisions at the Large Hadron Collider (LHC) involving rare top quark production modes, such as the tttt production, serves as a rigorous test of the SM's validity. Being the heaviest known elementary particle with a mass of 172.69 \u00B1 0.30 GeV, the top quark has a large coupling to the Higgs boson in the SM. In particular, the tttt production cross section is sensitive to both the magnitude and the CP properties of the top-Higgs Yukawa coupling. However, its measurement is very challenging due to the complexity of the final state and large background. Additionally, variables characterising the kinematics of the tttt event can be used as a probe into the properties of the top-Yukawa coupling. The top quark is also predicted to have large couplings to hypothetical new particles in many scenarios of physics beyond the SM. In searches for these, accurate identification of top quarks with large transverse momenta is essential."
+    },
+
+    "projects": [
+        {
+            "id": 1,
+            "name": "Measurement of the four top quark production cross-section",
+            "timeRange": "2020 - 2021",
+            "description": 
+                [
+                "One of the most spectacular and rarest top processes in the SM is the four top quark production. For a comparison, its predicted cross section is five orders of magnitude smaller than that of the top-antitop quark pair production in proton-proton collisions at the LHC. At the time of this analysis, the tttt production has not been observed with a significance exceeding 5 standard deviations. Large background of top-antitop quark pair production in association with additional radiation dominates the phase space of the four top quark signal making the measurement very challenging. Additionally, the predicted amount of background is subject to large uncertainty due to the complexity of theoretical caluclations at higher order corrections. To mitigate this, the signal depleted phase space region is divided into sub-regions with varying amounts of different background components and a data-driven method is used to estimate their contributions. The data-driven method involves two steps, the adjustment of the normalisation of the different background categories and the correction of the kinematic distributions of the associated radiation.",
+                "My involvment in this analysis was in the development, optimisation and validation of the data-driven kinematic correction method. In particular, I was responsible for deriving the reweighting factors for the distribution of the HT variable, defined as the scalar sum of all jet and lepton transverse momenta in the event. Since the HT variable is used to discriminate between the four top signal and the background, the correction of its mismodelling is critical for the cross section measurement. I also defined the uncertainties associated with the kinematic reweighting method and propagated them to the final result, validating that their imapact on the signal strength extracted by the profile likelihood fit is negligible."
+                ],
+            "keywords":
+                [
+                    "C++",
+                    "ROOT",
+                    "Data-driven correction",
+                    "Statistics",
+                    "Profile likelihood fit",
+                    "Git",
+                    "Teamwork"
+                ],
+            "link": {
+                "url": "https://doi.org/10.1007/JHEP11(2021)118",
+                "text": "Link to publication"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Sensitivity to the CP property of top-Higgs coupling",
+            "timeRange": "2022 - 2023",
+            "description": 
+            [
+                "In this project, I explored the sensitivity of the four top events to the CP property of the coupling between the top quark and the Higgs boson (CP is a discrete transformation of charge conjugation (C), that swaps particles and antiparticles, and spatial inversion (P), reversing the signs of spatial coordinates). Various measurements of the tttt production cross section were used to constrain the parameters of the top-Higgs coupling. The novelty of this study is the use of kinematic variables that have not been considered previously to explore the sensitivity of tttt to the top-Higgs coupling. The sensitivity studies were performed using Monte Carlo simulated tttt events with different values of the top-Higgs coupling parameters. A boosted decision tree (BDT) was trained to discriminate between the CP-even and CP-odd tttt events through the differences in 37 kinematic distributions of the two states. The BDT hyperparameters were optimised by a grid scan method to maximise the area under the ROC curve while preventing overtraining. The distributions of BDT scores for the samples of CP-even and CP-odd events were largely overlapping, indicating that the classifier struggled to distinguish between the two cases.",
+                "I also studied the experimental limitations of the efficiency of the top quark reconstruction arising from the detector acceptance. As the kinematic variables require reconstruction of top quark momenta in the tttt event, I calculated the upper limit of the fraction of tttt events where this is possible. Comparing current and the future detector configuration, I concluded that the increase in the detector acceptance, along with the increase in the beam luminosity, will significantly improve the sensitivity of the tttt production to the top-Higgs coupling."
+            ],
+            "keywords":
+                [
+                    "C++",
+                    "Python",
+                    "Monte Carlo simulation",
+                    "Machine learning",
+                    "BDTs",
+                    "High performance computing"
+                ],
+            "link": {
+                "url": "https://github.com/martin-murin/4TopYukawaSensitivity",
+                "text": "Link to repository"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Calibration of ML-based object identification algorithms",
+            "timeRange": "2019 - 2023",
+            "description": 
+                [
+                "The identification of jets originating from hadronic decays of top quarks and W and Z bosons with large transverse momenta is essential in the ATLAS physics programme. In particular, improvements in the identification techniques can enhance the sensitivity of searches for new physics beyond the SM involving heavy resonances as well as increase the precision of measurements of SM processes in challenging kinematic regions. Recently, ATLAS developed a new jet collection reconstructed from the combination of calorimeter and inner detector information, which improves the reconstruction of jet substructure. I measured the signal efficiency and background rejection of various machine learnining-based algorithms designed to exploit the jet substructure information available. By comparing the performance of the tagging algorithms in simulation and in data, I derived the correction factors and their uncertainties to calibrate the tagging algorithms.",
+                "The measurement of tagging efficiency involved the production of MC samples, which I was responsible for configuring and processing on the CERN high performance computing cluster. Subsequently, I evaluated the tagging efficiency and the background rejection as a function of jet transverse momentum with a tag-and-probe method and using a template likelihood fit. Throughout my involvement in this effort, I maintained the code base of the analysis to handle various versions of the tagging algorithms (with DNN, ANN and cut-based architectures) and extended for additional functionality, such as alternative efficiency working points and the measurement of misclassification rates. "
+                ],
+            "keywords":
+                [
+                    "C++",
+                    "ROOT",
+                    "Python",
+                    "Machine learning",
+                    "DNN/ANN",
+                    "High performance computing",
+                    "Git",
+                    "Teamwork"
+                ]
+        },
+        {
+            "id": 4,
+            "name": "Galactic cluster substructure",
+            "timeRange": "2018 - 2019",
+            "description": 
+                [
+                "Master's thesis abstract:",
+                "Galaxy clusters are the largest manifestation of cosmological structure formation by gravitational condensation. Cosmological models and parameters can be challenged through analysis of their properties, structure and overall population. Observational tools for probing hot gas within them begin to include the measurement of spectral distortion of the cosmic microwave background as a result of inverse Compton scattering of photons on free electrons in the gas, a process known as Sunyaev-Zeldovich (SZ) effect. With the improving technology of millimetre-wave detectors galaxy cluster structure and substructure becomes resolvable. This work employed data of simulated galaxy clusters from cosmological hydrodynamic simulation MACSIS to create synthetic observations of the thermal and kinematic SZ effects. Assessment on how physical properties of substructure affect the possibility of detection was made. This was done by running a feature detection algorithm to find fluctuations of the kinematic SZ signal within the intensity maps. In combination with the catalogue of self-bound objects within the clusters (subhalos) provided by SUBFIND algorithm, the detected fluctuations were matched with physical substructure. Physical properties of the matched subhalos namely their mass, line of sight velocity, gas fraction and cluster-centric distance, were investigated in terms of their effect on detection probability. It was found that detection rate increases logarithmically with subhalo mass up to 80% for object above 10^14 M. Increasing cluster-centric distance outside the virial radius also improves detection rate from less than 10% at R_200 up to 40% at 5R_200. Effects of line of sight velocity and gas fractions on the detection probability were also explored."
+                ],
+            "keywords":
+                [
+                    "Python",
+                    "Data analysis",
+                    "Image processing",
+                    "Data visualisation"
+                ]
+        }
+    ]
+
+}

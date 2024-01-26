@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+    .margin-top-offset {
+        margin-top: 80px;
+    }
+    .sidebar-mt-offset {
+        margin-top: 80px;
+    }
+    .full-height-sidebar {
+      position: fixed;
+      min-height: 100vh;
+      max-height: 100vh;
+      overflow: auto;
+    }
+  }
+
+@media (max-width: 767px) {
+    .margin-top-offset {
+    margin-top: 20px;
+    }
+    .sidebar-mt-offset {
+        margin-top: 60px;
+    }
+    .full-height-sidebar {
+        margin-top: 5px;
+    }
+}
+
+.max-height-img {
+    max-height: 500px;
+}
+
+
+.margin-bottom-offset {
+    margin-bottom: 100px;
+}

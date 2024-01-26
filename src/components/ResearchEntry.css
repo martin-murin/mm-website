@@ -1,0 +1,14 @@
+.skills-badge {
+    background-color: #3f87cf;
+    font-size: 1em;
+}
+
+.link-badge {
+    background-color: #e0e0e0;
+    font-size: 1em;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #3f87cf;
+}

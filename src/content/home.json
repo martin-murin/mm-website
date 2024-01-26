@@ -1,0 +1,108 @@
+{
+    "intro": {
+      "name": "Martin Murin, PhD",
+      "profession": "Data Scientist",
+      "summary": "I am a doctoral researcher in data science applied to particle physics. My distinctive skill set combines proficiency in mathematical problem-solving with a fundamental understanding and intuition grounded in solid physics background. I bring practical experience in applying machine learning techniques to large datasets and leveraging high-performance computing resources. Passionate about immersing myself in the latest cutting-edge technologies, such as AI, quantum computing, and blockchain, I specialize in deriving insightful interpretations from data at the forefront of the industry."
+    },
+    "skills": {
+      "heading": "My core technical skills include:",
+      "categories": [
+        {
+          "title": "Coding",
+          "skills": [
+            {"lang": "C++", "level": 90},
+            {"lang": "Python", "level": 90},
+            {"lang": "Bash", "level": 80},
+            {"lang": "Git", "level": 80},
+            {"lang": "HTML, CSS, JavaScript", "level": 60}
+          ]
+        },
+        {
+          "title": "Machine Learning",
+          "skills": ["Development and optimisation of BDT models using XGBoost and sklearn", "Hyperparameter tuning by an iterative grid scan method", "Efficiency calibration of DNN and ANN classifiers"]
+        },
+        {
+          "title": "Data Analysis",
+          "skills": ["Chi-squared tests, template likelihood fits, fit stability tests", "Profile likelihood fits for hypothesis testing and significance estimation, fit stability tests", "Configuring and managing tasks on CERN's high performance computing cluster"]
+        }
+      ]
+    },
+    "research": {
+        "heading": "Research highlights:",
+        "projects": [
+          {
+            "id": 1,
+            "title": "Measurement of four top quark production cross-section",
+            "description": "A measurement of the four top quark production rate with the ATLAS experiment at CERN's Large Hadron Collider. This measurement features a sophisticated signal extraction method to handle the large irreducible background. My contribution to this analysis involved the development of a strategy to mitigate the mis-modelling of the large background component.",
+            "imageSrc": "images/4tops_diagram.jpg"
+          },
+          {
+            "id": 2,
+            "title": "Sensitivity to the CP property of top-Higgs coupling",
+            "description": "In this project, I investigated the sensitivity of the four top process to the CP property of the top-Higgs coupling. Measurement of this property is a critical test of the Standard Model of particle physics. I developed and optimised a boosted decision tree (BDT) classifier to extract the CP information from the kinematics of the four top process.",
+            "imageSrc": "images/4tops_diagram.jpg"
+          },
+          {
+            "id": 3,
+            "title": "Calibration of ML-based object identification algorithms",
+            "description": "Identification of decays of top quark and W and Z bosons is performed by machine learning algorithms. These algorithms are trained on simulated data and require calibration to match the performance on real data. I updated and maintained the framework for calculating the calibration factors for novel identification algorithms.",
+            "imageSrc": "images/jet-formation.jpg"
+          },
+          {
+            "id": 4,
+            "title": "Galactic cluster substructure",
+            "description": "In this work, I assessed the possibility of using kinematic Sunyaev-Zeldovich effect to detect galaxy cluster substructure by searching for fluctuations on images of kSZ maps of simulated galaxy clusters.",
+            "imageSrc": "images/galaxy-cluster-kSZ.jpg"
+          }
+
+        ]
+    },
+    "education": {
+        "heading": "Educational history:",
+        "schools": [
+          {
+            "name": "University of Manchester",
+            "place": "Manchester, UK",
+            "degree": "PhD in Particle Physics",
+            "startYear": 2019,
+            "endYear": 2023
+          },
+          {
+            "name": "University of Manchester",
+            "place": "Manchester, UK",
+            "degree": "MSc in Physics with Astrophysics",
+            "startYear": 2015,
+            "endYear": 2019
+          },
+          {
+            "name": "University of California, Los Angeles",
+            "place": "Los Angeles, USA",
+            "degree": "International Exchange Program",
+            "startYear": 2017,
+            "endYear": 2018
+          }
+        ]
+    },
+
+    "interests": {
+      "heading": "Personal interests",
+      "categories": [
+        {
+          "title": "Astronomy",
+          "description": "I am passionate about astronomy and cosmology for its aesthetics and philosophy. I led numerous outreach activities, including public stargazings, astronomy society at my university, and gave engaging talks at elementary schools.",
+          "imageSrc": "images/eclipse_completed_d5100_crop.jpg"
+        },
+        {
+          "title": "Adventure",
+          "description": "I love exploring new places, cultures, and cuisines. Most recently, I travelled solo through southeast Asia and India, immersing myself in the historical narratives. I gained profound insights into the diverse societal structures, observed stark economic disparities between regions, and discovered their varying life philosophies.",
+          "imageSrc": "images/india_tajmahal.jpg"
+        },
+        {
+          "title": "Activities",
+          "description": "I maintain a healthy lifestyle through regular weightlifting workouts and swimming sessions. Spending time outdoor is a great way to unwind and recharge for me. I enjoy hiking, cycling, and snowboarding.",
+          "imageSrc": "images/chamonix-mt-blanc.jpg"
+        }
+      ]
+    }
+  }
+  
