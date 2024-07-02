@@ -36,9 +36,7 @@ function Research() {
                     <p>{content.header.motivation}</p>
                 </div>
                 <div className="col-12 col-md-6 text-center">
-                    <a href="/path-to-your-thesis.pdf" target="_blank" rel="noopener noreferrer">
-                        <img src="images/thesis-cover.jpg" alt="Description of image" className="img-fluid max-height-img" />
-                    </a>
+                    <img src="/images/thesis-cover.jpg" alt="thesis-cover" className="img-fluid max-height-img" />
                     <p><a href="https://www.librarysearch.manchester.ac.uk/permalink/44MAN_INST/bofker/alma992986568212201631" target="_blank" rel="noopener noreferrer">Access full thesis</a></p>
                 </div>
             </div>
