@@ -5,7 +5,7 @@ import './Home.css';
 import InterestsCard from './../components/InterestsCard';
 import ContentHome from './../content/home.json';
 import AnimatedQuestionSuggestions from './../components/AnimatedQuestionSuggestions';
-import ParticlesBackgroundDemo from './../components/ParticlesBackgroundDemo';
+import ParticlesBackgroundDemo from '../components/ParticlesBackground';
 
 const SERVERLESS_API_URL = 'https://mm-nft-2024.vercel.app/api/fetchAnswerAI'; // deployed serverless function URL
 function Home() {
@@ -81,7 +81,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='row justify-content-center align-items-center mt-4'>
-                        <div className='col-md-7'>
+                        <div className='col-10 col-md-7'>
                             <input
                                 type='text'
                                 value={question}
@@ -91,7 +91,7 @@ function Home() {
                                 className='form-control'
                             />
                         </div>
-                        <div className='col-md-2'>
+                        <div className='col-10 col-md-2'>
                             <button className="btn btn-outline-primary w-100" onClick={fetchAnswer} disabled={loading}>
                                 {loading ? 'Fetching...' : 'Ask!'}
                             </button>
