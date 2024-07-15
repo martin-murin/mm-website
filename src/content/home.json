@@ -32,9 +32,9 @@
           "skills": [
             {"lang": "Chi-squared test", "level": 90},
             {"lang": "Likelihood fit", "level": 80},
-            {"lang": "Hypothsis testing", "level": 80},
+            {"lang": "Hypothesis testing", "level": 80},
             {"lang": "High-performance computing", "level": 70},
-            {"lang": "numpy, scipy, pandas", "level": 90}
+            {"lang": "numpy, scipy, pandas", "level": 95}
           ]
         }
       ]
