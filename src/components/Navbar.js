@@ -38,6 +38,9 @@ function Navbar() {
             <li className="nav-item active mx-auto">
               <Link to="/research" className="nav-link">Research</Link>
             </li>
+            <li className="nav-item active mx-auto">
+              <Link to="/blog" className="nav-link">Blog</Link>
+            </li>
             {/* Add more links here if needed */}
           </ul>
         </div>

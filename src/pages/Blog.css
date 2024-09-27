@@ -1,0 +1,134 @@
+.container-fluid {
+    padding: 20px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    height: 85vh;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    padding-left: 0;
+}
+
+.sidebar li {
+    text-align: left;
+}
+
+.sidebar .nav-link {
+    color: #007bff;
+    text-align: left;
+    font-weight: 500;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.sidebar .nav-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.Blog {
+    padding: 0px 20px;
+}
+
+.Blog .content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.Blog table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.Blog th, .Blog td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border: 1px solid #dee2e6;
+}
+
+.Blog img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Blog pre {
+    white-space: nowrap;
+    overflow-x: auto; 
+    padding: 10px; 
+    background-color: #f8f9fa; 
+    border: 1px solid #dee2e6; 
+    border-radius: 0.25rem; 
+}
+
+.Blog code {
+    background-color: #e9ecef; 
+    padding: 2px 4px;
+    border-radius: 0.25rem; 
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: static; 
+        width: 100%; 
+        height: auto; 
+        overflow-y: visible; 
+        margin-bottom: 20px; 
+        border-bottom: 1px solid #dee2e6;
+    }
+}
+
+.skills-badge {
+    background-color: #823fcf;
+    font-size: 1em;
+    padding: 0.3em 0.6em;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+    margin-right: 0.5rem; 
+    margin-bottom: 0.5rem;
+    vertical-align: middle;
+}
+
+.technology-badge {
+    background-color: #3f87cf;
+    font-size: 1em;
+    padding: 0.3em 0.6em;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    vertical-align: middle;
+}
+
+.card {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    background-color: #f0f0f0;
+}
+
+.margin-top-offset {
+    margin-top: 80px;
+}
+
+.margin-bottom-offset {
+    margin-bottom: 100px;
+}

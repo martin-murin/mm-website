@@ -1,0 +1,12 @@
+[
+    {
+      "id": "ethereum-validator-rocket-pool",
+      "title": "Building an Ethereum Validator Node with Rocket Pool",
+      "timePublished": "September 27, 2024",
+      "keywords": ["Ethereum", "Rocket Pool", "Proof of Stake", "Beacon Chain", "Execution Layer"],
+      "technologies": ["Linux", "Firewall", "SSH", "Docker", "Grafana"],
+      "abstract": "This blog covers my experience setting up an Ethereum validator node using Rocket Pool, from installing and securing the system through evaluating and configuring the execution and consensus clients to managing and monitoring minipools. I explain the key concepts along the way, focusing on trade-offs between available staking solutions.",
+      "content": "null",
+      "htmlFile": "Ethereum-Validator-Rocket-Pool.html"
+    }
+  ]

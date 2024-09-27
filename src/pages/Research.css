@@ -1,27 +1,32 @@
+/* For wider screens: fixed sidebar with full height */
 @media (min-width: 768px) {
     .margin-top-offset {
         margin-top: 80px;
     }
     .sidebar-mt-offset {
-        margin-top: 80px;
+        margin-top: 20px;
     }
     .full-height-sidebar {
-      position: fixed;
-      min-height: 100vh;
-      max-height: 100vh;
-      overflow: auto;
+        position: fixed;
+        min-height: 100vh;
+        max-height: 100vh;
+        overflow-y: auto; /* Scrollable if content exceeds sidebar height */
     }
-  }
+}
 
+/* For narrow screens: sidebar moves to the top and adjusts height to fit content */
 @media (max-width: 767px) {
     .margin-top-offset {
-    margin-top: 20px;
+        margin-top: 20px;
     }
     .sidebar-mt-offset {
-        margin-top: 60px;
+        margin-top: 40px;
     }
     .full-height-sidebar {
+        position: static; /* Not fixed anymore, moves to the top */
         margin-top: 5px;
+        height: auto; /* Adjusts height to content */
+        overflow-y: visible; /* No scrolling needed */
     }
 }
 

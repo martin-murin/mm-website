@@ -2,7 +2,7 @@
     "intro": {
       "name": "Martin Murin, PhD",
       "profession": "Data Scientist and Researcher in Particle Physics at CERN",
-      "summary": "I am a doctoral researcher in data science applied to particle physics. I bring a distinctive skill set at the intersection of data science with machine learning, advanced statistics with scientific reasoning and strong mathematical problem-solving abiliities. I have practical experience in applying machine learning techniques to large datasets and leveraging high-performance computing resources. Passionate about immersing myself in the latest computing technologies, such as artificial intelligence, quantum computing, and blockchain."
+      "summary": "I am a doctoral researcher in data science applied to particle physics. I bring a distinctive skill set at the intersection of data science with machine learning, advanced statistics with scientific reasoning and strong mathematical problem-solving abilities. I have practical experience in applying machine learning techniques to large datasets and leveraging high-performance computing resources. Passionate about immersing myself in the latest computing technologies, such as artificial intelligence, quantum computing, and blockchain."
     },
     "skills": {
       "heading": "My core technical skills include:",
@@ -30,9 +30,8 @@
         {
           "title": "Data Science",
           "skills": [
-            {"lang": "Chi-squared test", "level": 90},
-            {"lang": "Likelihood fit", "level": 80},
             {"lang": "Hypothesis testing", "level": 80},
+            {"lang": "Likelihood fit", "level": 80},
             {"lang": "High-performance computing", "level": 70},
             {"lang": "numpy, scipy, pandas", "level": 95}
           ]
