@@ -133,7 +133,7 @@ function Home() {
                                 <h4 className="card-title">{category.title}</h4>
                                 <ul className='list-unstyled'>
                                     {category.skills.map(skill => (
-                                    <li className='mb-2' key={skill}>
+                                    <li className='mb-2' key={skill.lang}>
                                         {(
                                             <>
                                             {skill.lang}
@@ -160,7 +160,7 @@ function Home() {
                         <h2 className="text-center">{content.research.heading}</h2>
                     </div>
                     {content.research.projects.map((project, index) => (
-                    <>
+                    <React.Fragment key={project.id}>
                         <div className="card mt-2 mb-4 col-12 col-md-9 col-lg-8 custom-card-link" key={index}>
                         <HashLink to = {`/research#project-${project.id}`} className="project-link" scroll={el => window.scroll({ top: el.offsetTop, left: 0, behavior: 'instant' })} >
                             <div className="card-body text-center">
@@ -179,7 +179,7 @@ function Home() {
                             className="img-fluid"
                         />
                         </div>
-                    </>
+                    </React.Fragment>
                     ))}
                 </div>
             </div>
@@ -192,7 +192,7 @@ function Home() {
                     </div>
 
                     {content.education.schools.map((school, index) => (
-                    <>
+                    <React.Fragment key={index}>
                         <div className="card mt-2 mb-2 col-12 col-md-9 col-lg-8 custom-card" key={index}>
                             <div className="card-body text-center">
                             <div className="row">
@@ -217,7 +217,7 @@ function Home() {
                             </div>
                             </div>
                         </div>
-                    </>
+                    </React.Fragment>
                     ))}
                 </div>
             </div>
@@ -230,6 +230,7 @@ function Home() {
                         <div className="row">
                             {content.interests.categories.map((category, index) => (
                             <InterestsCard
+                            key={index}
                             title={category.title}
                             description={category.description}
                             imageSrc={category.imageSrc} 

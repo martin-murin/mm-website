@@ -37,7 +37,7 @@ const AnimatedQuestionSuggestions = () => {
       <p className={`animated-question ${fadeIn ? 'fade-in' : 'fade-out'}`}>
         {currentQuestion}
       </p>
-      <style jsx>{`
+      <style>{`
         .animated-question-container {
           height: 50px;
           display: flex;
