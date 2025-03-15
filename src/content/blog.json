@@ -8,5 +8,15 @@
       "abstract": "This blog covers my experience setting up an Ethereum validator node using Rocket Pool, from installing and securing the system through evaluating and configuring the execution and consensus clients to managing and monitoring minipools. I explain the key concepts along the way, focusing on trade-offs between available staking solutions.",
       "content": "null",
       "htmlFile": "Ethereum-Validator-Rocket-Pool.html"
+    },
+    {
+      "id": "ubuntu-raid-luks-lvm",
+      "title": "Installing Ubuntu 24.04 with RAID, LUKS, and LVM setup",
+      "timePublished": "March 15, 2025",
+      "keywords": ["Linux", "Ubuntu", "Installation", "RAID Array", "Disk Encryption"],
+      "technologies": ["Linux", "RAID", "LUKS", "LVM", "GRUB", "chroot"],
+      "abstract": "This blog provides a detailed guide to installing Ubuntu with an advanced setup using LVM inside an encrypted LUKS partition on a RAID array, combining step-by-step instructions with personal experiences, troubleshooting insights, and explanations of key concepts.",
+      "content": "null",
+      "htmlFile": "Ubuntu-Configuration.html"
     }
-  ]
+]
